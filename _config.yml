@@ -14,14 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 locale: "en-US"
-title: DeepFilterNet Samples
-subtitle: "DeepFilterNet: A Low Complexity Speech Enhancement Framework for Full-Band Audio based on Deep Filtering"
-description: "Audio Samples accompanying the paper 'DeepFilterNet: A Low Complexity Speech Enhancement Framework for Full-Band Audio based on Deep Filtering'"
+title: DeepFilterNet2 Samples
+subtitle: "DeepFilterNet2: Towards Real-Time Speech Enhancement on Embedded Devices for Full-Band Audio"
+description: "Audio samples accompanying the paper 'DeepFilterNet2: Towards Real-Time Speech Enhancement on Embedded Devices for Full-Band Audio'"
 github_username: Rikorose
 minimal_mistakes_skin: default
 name: "Hendrik Schröter"
 repository: "Rikorose/DeepFilterNet"
-url: "https://Rikorose.github.io/DeepFilterNet-Samples"
+url: "https://Rikorose.github.io/DeepFilterNet2-Samples"
 search: false
 
 # Build settings
