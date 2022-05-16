@@ -83,7 +83,7 @@ function initAndLoadSpectrogram(colorMap) {
 
 document.addEventListener('DOMContentLoaded', function() {
     // Load a colormap json file to be passed to the spectrogram.create method.
-    fetch('/assets/inferno-cmap.json')
+    fetch('/DeepFilterNet2-Samples/assets/inferno-cmap.json')
         .then(response => {
             if (!response.ok) {
                     throw new Error("HTTP error " + response.status);
