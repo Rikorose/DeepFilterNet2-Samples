@@ -74,7 +74,6 @@ head_scripts:
   - /assets/js/plugins/wavesurfer.js
   - /assets/js/plugins/wavesurfer.timeline.min.js
   - /assets/js/plugins/wavesurfer.spectrogram.min.js
-  - /assets/js/gradio.bundle.min.js
   - assets/js/mymain.js
 
 footer:

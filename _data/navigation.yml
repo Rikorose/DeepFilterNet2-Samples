@@ -6,10 +6,8 @@ main:
 sidebar-sample:
   - title: "Audio Samples"
     children:
-      - title: "Demo"
-        url: /
       - title: "Sample 1"
-        url: /sample1/
+        url: /
       - title: "Sample 2"
         url: /sample2/
       - title: "Sample 3"
