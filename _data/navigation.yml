@@ -1,0 +1,24 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+sidebar-sample:
+  - title: "Audio Samples"
+    children:
+      - title: "Demo"
+        url: /
+      - title: "Sample 1"
+        url: /sample1/
+      - title: "Sample 2"
+        url: /sample2/
+      - title: "Sample 3"
+        url: /sample3/
+      - title: "Sample 4"
+        url: /sample4/
+      - title: "Sample 5"
+        url: /sample5/
+      - title: "Sample 6"
+        url: /sample6/
+      - title: "About"
+        url: /about/

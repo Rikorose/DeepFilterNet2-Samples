@@ -1,0 +1,60 @@
+---
+permalink: /sample1/
+title: Sample 1
+subtitle:
+sidebar:
+    nav: sidebar-sample
+---
+
+<body itemscope itemtype="http://schema.org/WebApplication">
+    <div class="container">
+
+        <div id="demo">
+            <h2 itemprop="name" id="sample-title">Sample</h2>
+            <div id="waveform">
+                <div class="progress progress-striped active" id="progress-bar">
+                    <div class="progress-bar progress-bar-info"></div>
+                </div>
+
+                <!-- Here be waveform -->
+            </div>
+            <div id="wave-spectrogram"></div>
+            <div id="wave-timeline"></div>
+
+            <div class="controls">
+                <button class="btn btn-primary" data-action="play">
+                    <i class="glyphicon glyphicon-play"></i>
+                    Play
+                    /
+                    <i class="glyphicon glyphicon-pause"></i>
+                    Pause
+                </button>
+            </div>
+
+            <div class="list-group" id="playlist">
+                <a href="./assets/samples/01/p232_013_noisy.wav" class="list-group-item">
+                    <i class="glyphicon glyphicon-play"></i>
+                    Noisy
+                </a>
+                <a href="assets/samples/01/p232_013_enhanced_1stage.wav" class="list-group-item">
+                    <i class="glyphicon glyphicon-play"></i>
+                    DeepFilterNet (stage 1 only)
+                </a>
+                <a href="assets/samples/01/p232_013_enhanced_crm.wav" class="list-group-item">
+                    <i class="glyphicon glyphicon-play"></i>
+                    DeepFilterNet (stage 1 + CRM)
+                </a>
+                <a href="./assets/samples/01/p232_013_enhanced.wav" class="list-group-item">
+                    <i class="glyphicon glyphicon-play"></i>
+                    DeepFilterNet
+                </a>
+                <a href="./assets/samples/01/p232_013_clean.wav" class="list-group-item">
+                    <i class="glyphicon glyphicon-play"></i>
+                    Clean
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+</body>

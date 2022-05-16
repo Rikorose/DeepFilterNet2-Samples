@@ -1,0 +1,95 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+locale: "en-US"
+title: DeepFilterNet Samples
+subtitle: "DeepFilterNet: A Low Complexity Speech Enhancement Framework for Full-Band Audio based on Deep Filtering"
+description: "Audio Samples accompanying the paper 'DeepFilterNet: A Low Complexity Speech Enhancement Framework for Full-Band Audio based on Deep Filtering'"
+github_username: Rikorose
+minimal_mistakes_skin: default
+name: "Hendrik Schröter"
+repository: "Rikorose/DeepFilterNet"
+url: "https://Rikorose.github.io/DeepFilterNet-Samples"
+search: false
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: "DE"
+
+include:
+  - _pages
+  - assets/
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+author:
+  name: "Hendrik Schröter"
+  bio: "Researcher working on deep-learning based speech enhacement."
+  location: "Germany"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://lme.tf.fau.de/person/schroeter/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Rikorose"
+
+head_scripts:
+  - /assets/js/plugins/wavesurfer.js
+  - /assets/js/plugins/wavesurfer.timeline.min.js
+  - /assets/js/plugins/wavesurfer.spectrogram.min.js
+  - /assets/js/gradio.bundle.min.js
+  - assets/js/mymain.js
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Rikorose/DeepFilterNet"
+
+defaults:
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+      classes: wide
+      share: true
